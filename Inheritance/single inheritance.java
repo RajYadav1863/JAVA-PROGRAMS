@@ -1,4 +1,4 @@
-//                            date-16/12/22
+// JAVA Lab Single Inheritance Program Date-16/12/22
 /*define a class base with data members string name and int age and member methods are
 getbasedata(),showbasedata().define subclass Child,with data members string branch,integer
 semester and member methods are getchilddata(),showchinddata().initialise an object of 
