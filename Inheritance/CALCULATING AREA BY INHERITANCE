@@ -1,0 +1,44 @@
+/*  
+    DATE-19/12/22.
+    write a java program to calculate area af triangle and rectansgle using inheritance 
+    take the input from the user.
+*/
+
+import java.util.*;
+class area
+{
+    Scanner sc=new Scanner(System.in);
+     void TRIANGLE()
+    {
+        int b,h;
+        double r;
+        System.out.println("ENTER THE VALUE OF BREADTH:");
+        b=sc.nextInt();
+        System.out.println("ENTER THE VALUE OF HEIGHT:");
+        h=sc.nextInt();
+        r=0.5*b*h;
+        System.out.println("AREA OF TRIANGLE IS:"+r);
+        
+    }
+    void RECTANGLE()
+    {
+        int l,b,a;
+        System.out.println("ENTER THE VALUE OF LENGTH:");
+        l=sc.nextInt();
+        System.out.println("ENTER THE VALUE OF BREADTH:");
+        b=sc.nextInt();
+          a=l*b;
+        System.out.println("AREA OF RECTANGLE IS:"+a);
+        
+    }
+    
+    
+}
+public class Main extends area
+{
+	public static void main(String[] args) {
+		Main obj=new Main();
+		obj.TRIANGLE();
+		obj.RECTANGLE();
+	}
+}
